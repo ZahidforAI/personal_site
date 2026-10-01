@@ -1,0 +1,111 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#FFFFFF">
+  <script>try { const t = localStorage.getItem('theme'); document.documentElement.dataset.theme = t === 'dark' || t === 'light' ? t : (matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light') } catch { }</script>
+  <title>About Zahid</title>
+  <meta name="description"
+    content="A new home for my work, ideas, and everything in between. Launching soon at zahidforai.com.">
+  <link rel="canonical" href="https://zahidforai.com/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="About Zahid">
+  <meta property="og:description" content="A new home for my work, ideas, and everything in between. See you soon.">
+  <meta property="og:url" content="https://zahidforai.com/">
+  <meta name="twitter:card" content="summary">
+  <link rel="icon" type="image/png" href="./assets/about-zahid-favicon.png">
+  <link rel="stylesheet" href="./styles.css">
+  <script src="./config.js" defer></script>
+  <script src="./app.js" defer></script>
+</head>
+
+<body>
+  <div class="site-shell">
+    <header class="site-header">
+      <a class="wordmark" href="./" aria-label="Zahid home">Zahid<span>.</span></a>
+      <button class="theme-toggle" type="button" aria-label="Switch to dark mode" aria-pressed="false"
+        title="Switch to dark mode">
+        <svg class="moon-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <path d="M16.5 12.4A7 7 0 0 1 7.6 3.5a7 7 0 1 0 8.9 8.9Z" stroke="currentColor" stroke-width="1.7"
+            stroke-linejoin="round" />
+        </svg>
+        <svg class="sun-icon" viewBox="0 0 20 20" fill="none" aria-hidden="true">
+          <circle cx="10" cy="10" r="3.2" stroke="currentColor" stroke-width="1.7" />
+          <path
+            d="M10 2v1.5M10 16.5V18M2 10h1.5M16.5 10H18M4.35 4.35l1.06 1.06M14.59 14.59l1.06 1.06M15.65 4.35l-1.06 1.06M5.41 14.59l-1.06 1.06"
+            stroke="currentColor" stroke-width="1.7" stroke-linecap="round" />
+        </svg>
+      </button>
+    </header>
+    <main id="main">
+      <div class="ambient-light" aria-hidden="true"></div>
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="small-star" aria-hidden="true">✦</span> GOOD THINGS TAKE A LITTLE TIME</p>
+        <h1><span class="headline-bold">LAUNCHING</span><span class="headline-light">VERY SOON<span
+              class="period">.</span></span></h1>
+        <p class="intro">A new home for my work, ideas,<br class="mobile-break"> and everything in between.</p>
+      </div>
+      <div class="countdown-wrap">
+        <div class="countdown" role="timer" aria-label="Time until launch" aria-live="off">
+          <div class="time-unit"><span class="time-value" data-unit="days">10</span><span class="time-label">DAYS</span>
+          </div>
+          <span class="time-divider" aria-hidden="true">:</span>
+          <div class="time-unit"><span class="time-value" data-unit="hours">00</span><span
+              class="time-label">HOURS</span></div>
+          <span class="time-divider" aria-hidden="true">:</span>
+          <div class="time-unit"><span class="time-value" data-unit="minutes">00</span><span
+              class="time-label">MINUTES</span></div>
+          <span class="time-divider" aria-hidden="true">:</span>
+          <div class="time-unit"><span class="time-value" data-unit="seconds">00</span><span
+              class="time-label">SECONDS</span></div>
+        </div>
+        
+        <noscript>
+          <p class="no-script">Launching 12 October 2026. Enable JavaScript for the live countdown.</p>
+        </noscript>
+      </div>
+      <div class="artwork" aria-hidden="true">
+        <div class="artwork-halo"></div>
+        <video class="blockchain-video" loop muted playsinline preload="auto" poster="./assets/blockchain-poster.webp"
+          tabindex="-1">
+          <source src="./assets/blockchain.webm" type="video/webm">
+          <source src="./assets/blockchain.mp4" type="video/mp4">
+          <img src="./assets/blockchain.gif" alt="" width="550" height="400">
+        </video>
+        <img class="blockchain-still" src="./assets/blockchain-poster.webp" alt="" width="550" height="400">
+      </div>
+    </main>
+    <footer class="site-footer">
+      <p class="footer-copy">Until then, find me here.</p>
+      <nav class="socials" aria-label="Find Zahid online">
+        <a class="social-link" href="https://x.com/zahidforai" target="_blank" rel="noopener noreferrer"
+          aria-label="Zahid on X, opens in a new tab" data-tooltip="X / Twitter"><img src="./assets/icons/x.svg" alt=""
+            width="20" height="20"></a>
+        <a class="social-link" href="https://github.com/zahidforai" target="_blank" rel="noopener noreferrer"
+          aria-label="Zahid on GitHub, opens in a new tab" data-tooltip="GitHub"><img src="./assets/icons/github.svg"
+            alt="" width="21" height="21"></a>
+        <a class="social-link" href="https://www.reddit.com/user/zahidforai/" target="_blank" rel="noopener noreferrer"
+          aria-label="Zahid on Reddit, opens in a new tab" data-tooltip="Reddit"><img src="./assets/icons/reddit.svg"
+            alt="" width="22" height="22"></a>
+        <button class="social-link" id="discord-button" type="button" aria-label="Show Discord username zahidforai"
+          aria-expanded="false" aria-controls="discord-card" data-tooltip="Discord"><img
+            src="./assets/icons/discord.svg" alt="" width="23" height="23"></button>
+        <a class="social-link" href="https://t.me/zahidfor_ai" target="_blank" rel="noopener noreferrer"
+          aria-label="Zahid on Telegram, opens in a new tab" data-tooltip="Telegram"><img
+            src="./assets/icons/telegram.svg" alt="" width="22" height="22"></a>
+        <a class="social-link" href="mailto:work@zahidforai.com" aria-label="Email work@zahidforai.com"
+          data-tooltip="Email"><img src="./assets/icons/gmail.svg" alt="" width="22" height="22"></a>
+        <div id="discord-card" class="discord-card" hidden>
+          <span class="discord-label">ADD ME ON DISCORD</span>
+          <div><span class="discord-name">zahidforai</span><button id="copy-discord" type="button">Copy</button></div>
+        </div>
+      </nav>
+      <a class="footer-email" href="mailto:work@zahidforai.com">work@zahidforai.com</a>
+    </footer>
+  </div>
+  <div class="toast" role="status" aria-live="polite"></div>
+</body>
+
+</html>
